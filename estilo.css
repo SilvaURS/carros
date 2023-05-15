@@ -1,0 +1,162 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(51,51,51,1) 100%);
+}
+#site{
+    width: 1024px;
+    background-color: #FFF;   
+    margin: 20px auto; 
+    border-radius: 15px
+}
+#topo{
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+
+}
+#topo h2{
+    font-family: 'Bangers', cursive;
+    font-size: 3.5em;
+    text-shadow: 3px 3px #FEF111 ;
+}
+
+#formb{
+    flex-grow: 1;
+    text-align: right;
+
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+#formb button{
+    background: transparent;
+    cursor: pointer;
+    
+}
+
+#busca{
+    border: 2px solid #000000;
+    padding: 3px;
+}
+
+#formb button svg{
+    transition: all 300ms;
+}
+
+#formb button:hover svg{
+    stroke: #888;
+}
+
+#menu{
+    background-color: black;
+    margin: 10px;
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+}
+
+#menu a{
+    color: #FEF111;
+    text-decoration: none;
+}
+
+#menu a:hover{
+    color: white;
+    transition: all 300ms;
+}
+.produto{
+    margin:20px;
+}
+
+.produto h1{
+    font-family: 'Bangers', cursive;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.container-produto{
+    display: flex;
+    align-items: flex-start;
+}
+
+.container-produto img{
+    flex-grow: 1;
+}
+.container-produto .dados-produto{
+    flex-grow: 3;
+}
+
+.dados-produto p{
+    margin:10px 0;
+}
+
+#preco{
+    font-size: 2em;
+}
+
+.tabela{
+    border: 1px solid #333;
+    width: 100%;
+    text-align: center;
+}
+.tabela tr td{
+    border: 1px solid #333;
+}
+
+.tabela th{
+    background: #333;
+    color: #FFF;
+}
+
+.tabela tr:nth-child(even) td{
+    background: #EEE;
+}
+
+#btn-compra{
+    background-color: #000;
+    color:#FFF;
+    padding: 10px;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: all 0.5s;
+
+    display: flex;
+    justify-items: center;
+}
+
+#btn-compra:hover{
+    color: #FEF111;
+}
+
+#btn-compra svg{
+    fill: #FFF;  
+}
+
+
+#rodape{
+    padding:50px;
+    text-align: center;
+    border-top: 2px solid #333;
+    margin:10px;
+}
+#social{
+    margin-top: 10px;
+    padding: 10px;
+}
+#social a{
+    text-decoration: none;
+}
